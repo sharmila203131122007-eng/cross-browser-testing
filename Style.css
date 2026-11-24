@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}
